@@ -46,7 +46,7 @@
                     </li>
                 </ul>
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-item">
+                    <li class="header__navbar-item header__navbar-item--has-notify">
                         <a href="" class="header__navbar-item-link">
                             <i class="header__navbar-icon fa fa-bell"></i>
                             Thông báo
@@ -93,6 +93,9 @@
                                     </a>
                                 </li>
                             </ul>
+                            <footer class="header__notify-footer">
+                                <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                            </footer>
                         </div>
                     </li>
                     <li class="header__navbar-item">
@@ -117,6 +120,68 @@
 
 
     </footer>
+</div>
+
+<!--Modal layout-->
+<div class="modal">
+    <div class="modal__overlay">
+
+    </div>
+
+    <div class="modal__body">
+
+    <div class="modal__inner">
+
+<!--        Authen form-->
+        <div class="auth-form">
+            <div class="auth-form__container">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng ký</h3>
+                    <span class="auth-form__switch-btn">ĐĂng nhập</span>
+                </div>
+
+
+                <div class="auth-form_form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập laại mật khẩu">
+                    </div>
+                </div>
+                <div class="auth-form_aside">
+                    <p class="auth-form__policy-text">
+                        Bằng việc đăng ký bạn đã đồng ý với shoppe về
+                        <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                        <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                    </p>
+                </div>
+
+                <div class="auth-form__controls">
+                    <button class="btn">TRỞ LẠI</button>
+                    <button class="btn btn-primary">ĐĂNG KÝ</button>
+                </div>
+            </div>
+
+            <div class="auth-form__socials">
+                <a href="" class="btn btn--with-icon">
+                    <i class="fab fa-facebook-square"></i>
+                    Kết nối với facebook
+                </a>
+                <a href="" class="btn btn--with-icon">
+                    <i class="fab fa-google"></i>
+                    Kết nối với facebook
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
 </div>
 </body>
 </html>
